@@ -1,4 +1,3 @@
-package Array;
 
 public class max {
     public static int max(int num[]){

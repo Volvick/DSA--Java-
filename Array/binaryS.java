@@ -1,4 +1,3 @@
-package Array;
 
 public class binaryS {
     public static void binaryS(int arr[], int key) {

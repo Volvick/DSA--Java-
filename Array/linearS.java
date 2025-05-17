@@ -1,4 +1,4 @@
-package Array;
+
 
 public class linearS {
     public static int linearS(int num[], int key) {
