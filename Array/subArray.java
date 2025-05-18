@@ -1,5 +1,4 @@
 
-
 public class subArray {
     public static void subArray(int arr[]) {
         int subArray = 0, total = 0;
@@ -33,8 +32,8 @@ public class subArray {
 
     public static void main(String[] args) {
         int arr[] = { 2, 4, 6, 8, 10 };
-        int totSb=arr.length;
-        System.out.println("totalsubarray: "+ totSb*(totSb+1)/2);
+        int totSb = arr.length;
+        System.out.println("totalsubarray: " + totSb * (totSb + 1) / 2);
         subArray(arr);
     }
 }
