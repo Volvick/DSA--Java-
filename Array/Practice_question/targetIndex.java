@@ -1,3 +1,5 @@
+package Practice_question;
+
 public class targetIndex {
     public static int targetIndex(int arr[], int target) {
         int arrLength = arr.length;
