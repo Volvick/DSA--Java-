@@ -9,7 +9,8 @@ public class binaryS {
             if (arr[mid] == key) {
                 System.out.println("Element Index: " + mid);
                 break;
-            } 
+
+            }
             else if (arr[mid] > key) {
                 mid -= 1;
             } else {
@@ -22,5 +23,6 @@ public class binaryS {
         int arr[] = { 2, 4, 5, 10, 12, 14, 18 };
         int key = 18;
         binaryS(arr, key);
+
     }
 }
