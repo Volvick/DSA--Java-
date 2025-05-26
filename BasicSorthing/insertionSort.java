@@ -5,7 +5,7 @@ public class insertionSort {
     for (int i = 1; i < arr.length ; i++) {
       int curr = arr[i];// current element
       int prev = i - 1;// previous element
-      // finding out the correct post to insert
+      // finding out the correct position to insert
       while (prev >= 0 && arr[prev] > curr) {
         arr[prev + 1] = arr[prev];
         prev--;
