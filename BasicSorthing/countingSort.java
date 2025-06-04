@@ -12,7 +12,7 @@ public class countingSort {
       count[arr[i]]++;
     }
     int j = 0;
-    for (int i = 0; i < count.length; i++) {
+    for (int i = 0; i < count.length + 1 - i; i++) {
       while (count[i] > 0) {
         arr[j] = i;
         j++;
