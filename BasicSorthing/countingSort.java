@@ -22,7 +22,7 @@ public class countingSort {
   }
 
   public static void main(String[] args) {
-    int arr[] = { 11, 4, 1, 3, 2, 4, 3, 7 };
+    int arr[] = { 11, -4, 1, 3, 2, 4, 3, 7 };
     countingSort(arr);
   }
 }
