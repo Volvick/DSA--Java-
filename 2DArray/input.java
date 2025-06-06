@@ -9,10 +9,12 @@ public class input {
     int row = sc.nextInt(),col=sc.nextInt();
     int arr[][] = new int[row][col];
     System.out.println("Enter the number:");
+    int sum = 0;
     //getting value
     for (int i = 0; i < row; i++) {
       for (int j = 0; j < col; j++) {
         arr[i][j] = sc.nextInt();
+        sum+= arr[i][j];
       }
     }
     //printing
@@ -22,5 +24,6 @@ public class input {
       }
       System.out.println();
     }
+    System.out.print("Sum: "+sum);
   }
 }
