@@ -6,7 +6,7 @@ public class insertionSort {
       int curr = arr[i];// current element
       int prev = i - 1;// previous element
       // finding out the correct position to insert
-      while (prev >= 0 && arr[prev] < curr) {
+      while (prev >= 0 && arr[prev] > curr) {
         arr[prev + 1] = arr[prev];
         prev--;
       }
@@ -19,7 +19,7 @@ public class insertionSort {
   }
 
   public static void main(String[] args) {
-    int arr[] = { 5, 4, 1, 3, 2 };
+    int arr[] = { 5, 4, 1, 3, 2 };//55 prev neg
     insertionSort(arr);
   }
 }
