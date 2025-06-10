@@ -9,7 +9,7 @@ public class diagonalArrSum {
         sum += matrix[i][matrix.length - i - 1];
       }
     }
-    System.out.println("Sum: "+sum);
+    System.out.println("Sum: " + sum);
   }
 
   public static void main(String[] args) {
