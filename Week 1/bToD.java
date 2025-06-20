@@ -1,6 +1,6 @@
 public class bToD {
     public static void main(String[] args) {
-        int n = 110;
+        int n = 1000;
         int pow = 0;
         int dNum = 0;
         int temp = n;
