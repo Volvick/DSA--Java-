@@ -6,6 +6,7 @@ public class decimalToBinary {
             n = n / 2;
             newNum = (newNum * 10) + rem;
         }
+        System.out.println(newNum);
         //reversing the digit
         while (newNum!=0) {
              lastdigit = newNum%10;
