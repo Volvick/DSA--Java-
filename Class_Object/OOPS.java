@@ -2,9 +2,26 @@ package Class_Object;
 
 public class OOPS {
   public static void main(String[] args) {
-    Pen p1 = new Pen();//created a pen object called p1;
+    Pen p1 = new Pen();// created a pen object called p1;
     p1.setColor("Blue");
     System.out.println(p1.color);
+    Student s1 = new Student();
+    s1.age = 10;
+    System.out.println(s1.age);
+    s1.clacPercentage(90, 95, 99);
+    System.out.println(s1.percentage);
+    bankAccount myAccount = new bankAccount();
+    myAccount.userName = "Volvick";
+    myAccount.setPassword("34ds!e21");
+    System.out.println(myAccount.userName);
+  }
+
+}
+class bankAccount{
+  public String userName;
+  private String password;
+  void setPassword(String newPass){
+    password = newPass;
   }
 }
 
