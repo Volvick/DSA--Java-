@@ -2,14 +2,6 @@ package Recursion;
 
 public class Last_Occurance {
   static int lastOccurance(int arr[], int key, int i) {
-    // if (i < 0) {
-    // return -1;
-    // }
-    // if (arr[i] == key) {
-    // return i;
-    // }
-    // return lastOccurance(arr, key, i - 1);
-
     if (i == arr.length) {
       return -1;
     }
