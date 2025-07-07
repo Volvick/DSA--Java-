@@ -11,7 +11,6 @@ public class Last_Occurance {
     }
     return isFound;
   }
-
   public static void main(String[] args) {
     int arr[] = { 1, 3, 4, 2, 4,5,3,56 };
     int n = arr.length - 1;
