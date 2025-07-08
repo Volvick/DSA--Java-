@@ -12,7 +12,6 @@ public class OptimizedPower {
     }
     return halfPowerSquare;
   }
-
   public static void main(String[] args) {
     System.out.println(optimizedPower(2, 10));
   }
