@@ -19,6 +19,7 @@ public class FirstLastOcc {
       }
     }
     occurance(str, indx + 1, ch);
+    
   }
 
   public static void main(String[] args) {
