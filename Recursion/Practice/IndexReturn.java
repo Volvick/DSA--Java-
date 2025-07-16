@@ -10,7 +10,6 @@ public class IndexReturn {
     }
     returnIndexOfKey(i + 1, arr, key);
   }
-
   public static void main(String[] args) {
     int arr[] = {3,4,4,3,4,2,4,3,4};
     returnIndexOfKey(0, arr, 3);
