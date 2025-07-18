@@ -39,6 +39,7 @@ public class MergeSort {
 
     //right part
     while (j <= ei) {
+
       temp[k++] = arr[j++];
     }
 
@@ -49,7 +50,7 @@ public class MergeSort {
   }
 
   public static void main(String[] args) {
-    int arr[] = { 2, 8, 4, 6, 0, 3 };
+    int arr[] = { 2, 8, 4, 6, 0, 3 }; 
     mergeSort(arr, 0, arr.length - 1);
     printArr(arr);
   }
